@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /contact.html
+Disallow: /quickstart.html
+Allow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: *
+Crawl-delay: 10
