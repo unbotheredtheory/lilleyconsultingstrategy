@@ -34,15 +34,6 @@ nav a {
 h1 {
     color: #4B0082;
 }
-.email-button {
-    display: inline-block;
-    background-color: #4B0082;
-    color: #fff;
-    padding: 0.7em 1.2em;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-}
 footer {
     text-align: center;
     margin: 2em 0;
