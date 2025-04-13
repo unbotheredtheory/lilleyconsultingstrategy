@@ -43,7 +43,7 @@ footer {
     color: #666;
 }
 .menu-toggle {
-    display: none;
+    display: block;
     background-color: #4B0082;
     color: white;
     padding: 0.5em 1em;
