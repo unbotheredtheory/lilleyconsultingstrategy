@@ -1,63 +1,55 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>gallery.html</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel='stylesheet' href='style.css'></head><body><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Gallery – LILLEY CONSULTING & STRATEGY LIMITED</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1em;
-            padding: 2em;
-        }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 6px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .caption {
-            text-align: center;
-            font-style: italic;
-            color: #444;
-            margin-top: 0.5em;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery – LILLEY CONSULTING</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+      margin-top: 2em;
+    }
+    .gallery-grid img {
+      max-width: 300px;
+      height: auto;
+      border-radius: 6px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.2);
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Gallery</h1>
-        <p>Moments, reflections, and pieces of the journey</p>
-    </header>
-    <button class="menu-toggle" onclick="document.querySelector('nav').style.display = (document.querySelector('nav').style.display === 'block' ? 'none' : 'block')">☰ Menu</button>
-    <button class="menu-toggle" onclick="document.querySelector('nav').style.display = (document.querySelector('nav').style.display === 'block' ? 'none' : 'block')">☰ Menu</button>
+<header>
+  <h1>Gallery</h1>
+  <p>Reflections from real moments and places</p>
+</header>
+<button class="menu-toggle" onclick="document.querySelector('nav').style.display = 
+(document.querySelector('nav').style.display === 'block' ? 'none' : 'block')">☰ Menu</button>
 <nav>
-    <a href="/">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <a href="quickstart.html">Quick Start</a>
-    <div class="dropdown">
-        <a href="#">More ▾</a>
-        <div class="dropdown-content">
-            <a href="blog.html">Blog</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="gallery.html">Gallery</a>
-        </div>
+  <a href="/">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+  <a href="quickstart.html">Quick Start</a>
+  <div class="dropdown">
+    <a href="#">More ▾</a>
+    <div class="dropdown-content">
+      <a href="blog.html">Blog</a>
+      <a href="testimonials.html">Testimonials</a>
+      <a href="gallery.html">Gallery</a>
     </div>
-    <a href="privacy.html">Privacy</a>
+  </div>
+  <a href="privacy.html">Privacy</a>
 </nav>
-    <div class="container">
-        <div class="gallery">
-            <div>
-                <img src="images/banner/lilley_sunset_watermarked.png" alt="Watermarked sunset placeholder" />
-                <div class="caption">“There is power in the pause.”</div>
-            </div>
-        </div>
-    </div>
-    <footer>&copy; 2025 LILLEY CONSULTING & STRATEGY LIMITED</footer>
+<div class="container">
+  <div class="gallery-grid">
+    <img src="images/gallery/lilley_sunset_watermarked.png" alt="lilley_sunset_watermarked" />
+
+  </div>
+</div>
+<footer>&copy; 2025 LILLEY CONSULTING & STRATEGY LIMITED</footer>
 </body>
 </html>
-</body></html>
