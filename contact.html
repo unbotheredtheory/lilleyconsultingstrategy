@@ -1,1 +1,137 @@
-<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>contact.html</title><meta name='viewport' content='width=device-width, initial-scale=1.0'><link rel='stylesheet' href='style.css'></head><body><h1>Contact</h1><p>Email: <script>document.write('<a href="mailto:' + 'advocacy' + '@' + 'hollidaylife.com">advocacy@hollidaylife.com</a>');</script><noscript>Email hidden to protect from spam.</noscript></p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Lilley Consulting & Strategy</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #4B0082;
+      color: white;
+      padding: 1em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1em;
+      margin-top: 0.5em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 0.9em;
+      padding: 0.4em 1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 600px;
+      margin: 2em auto;
+      padding: 1em;
+      background: #fff;
+      border-left: 5px solid #6a1b9a;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+
+    h1 {
+      color: #4B0082;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1em;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input, textarea {
+      padding: 0.6em;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #4B0082;
+      color: white;
+      border: none;
+      padding: 0.75em;
+      font-size: 1em;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #5f21a6;
+    }
+
+    .note {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    footer {
+      background-color: #eee;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 4em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+      <a href="quickstart.html">Quick Start</a>
+      <a href="privacy.html">Privacy</a>
+    </nav>
+  </header>
+
+  <main>
+<h1>Contact</h1>
+<p>If you'd like to get in touch, please enter your email below. Your message will be sent securely, and I’ll get back to you soon.</p>
+
+<form action="https://buttondown.email/api/emails/embed-subscribe/unbotheredtheory" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/unbotheredtheory', 'popupwindow')" class="contact-form">
+  <label for="bd-email">Your Email:</label>
+  <input type="email" name="email" id="bd-email" placeholder="Enter your email" required />
+  <input type="submit" value="Subscribe & Message" />
+  <p><small>Powered by <a href="https://buttondown.email/unbotheredtheory" target="_blank">Buttondown</a></small></p>
+</form>
+
+    <p class="note">This form is protected by Buttondown. Your email is never shared.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 LILLEY CONSULTING & STRATEGY LIMITED
+  </footer>
+
+</body>
+</html>
